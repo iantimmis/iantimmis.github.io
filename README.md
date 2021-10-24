@@ -18,3 +18,8 @@ npm run deploy
 ```
 
 This will update the `deployed` branch with the static site. This setup was referenced from [here](https://create-react-app.dev/docs/deployment/#github-pages-https-pagesgithubcom)
+
+
+# Resources 
+
+Tailwind setup - https://tailwindcss.com/docs/guides/create-react-app
