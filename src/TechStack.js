@@ -1,9 +1,7 @@
 function TechStack() {
   return (
     <div className="mx-auto grid gap-3 grid-cols-1 grid-rows-5 max-w-lg">
-      {/* <div className=""> */}
-        <Layer bg="bg-yellow-200">Machine Learning / Data Science</Layer>
-      {/* </div> */}
+      <Layer bg="bg-yellow-200">Machine Learning / Data Science</Layer>
       <div className="grid gap-4 grid-cols-3">
         <Layer bg="bg-blue-200">Frontend</Layer>
         <Layer bg="bg-red-200">Mobile</Layer>
@@ -13,9 +11,7 @@ function TechStack() {
         <Layer bg="bg-green-200">Backend</Layer>
         <Layer bg="bg-yellow-200">Data</Layer>
       </div>
-      {/* <div className=""> */}
-        <Layer bg="bg-gray-200">Software Libraries</Layer>
-      {/* </div> */}
+      <Layer bg="bg-gray-200">Software Libraries</Layer>
       <div className="grid gap-4 grid-cols-2">
         <Layer bg="bg-pink-200">Hardware</Layer>
         <Layer bg="bg-purple-200">Emulation</Layer>
@@ -42,5 +38,3 @@ function Layer(props) {
 }
 
 export default TechStack;
-
-
